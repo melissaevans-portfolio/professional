@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melissa Evans</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon base -->
+    <link rel="icon" href="/assets/identity/favicon.ico" type="image/x-icon" />
+
+    <!-- PNG favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/identity/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/identity/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/png" href="/assets/identity/favicon.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/assets/identity/apple-touch-icon.png" />
+
+    <!-- Android Chrome Icons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/identity/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/assets/identity/android-chrome-512x512.png"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Outfit";
+        src: url(assets/fonts/Outfit/Outfit-VariableFont_wght.ttf);
+      }
+
+      body {
+        font-family: "Outfit";
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/styles.css?v-2" />
+    <script src="js/typewriter.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <a href="index.html">
+          <img src="assets/images/5bnxmz.jpg" class="logo" alt="" />
+        </a>
+
+        <img
+          src="assets/icons/menu.svg"
+          width="30"
+          height="30"
+          alt="menu"
+          id="open-menu"
+        />
+      </div>
+
+      <nav>
+        <hr />
+
+        <a href="index.html" class="menu-item">
+          <img src="assets/icons/home.svg" width="30" height="30" alt="" />
+          <p>Home</p>
+        </a>
+        <a href="blog.html" class="menu-item">
+          <img src="assets/icons/blog.svg" width="30" height="30" alt="" />
+          <p>Blog</p>
+        </a>
+
+        <a href="resume.html" class="menu-item">
+          <img src="assets/icons/resume.svg" width="30" height="30" alt="" />
+          <p>Resume</p>
+        </a>
+      </nav>
+
+      <div id="expand-nav"></div>
+    </header>
+
+    <main>
+      <section class="grid-2">
+        <div class="grid-2-content">
+          <div id="greeting-text">
+            <p id="greeting">Hello <b>🖐</b></p>
+            <h1>
+              <span id="typewriter"></span>
+            </h1>
+          </div>
+
+          <script>
+            new Typewriter("#typewriter", {
+              strings: "I'm Melissa Evans",
+              autoStart: true,
+              loop: false,
+              delay: 110,
+            });
+          </script>
+
+          <p>
+            Experienced professional with 7+ years in a corporate setting,
+            balancing the need for technical and business skill sets. Analyzing,
+            defining, solving and testing projects with both sides in mind to
+            ensure full coverage and confidence from stakeholders. Combining my
+            experience with technology as a software developer with my passion
+            for business while ensuring that end users are happy, I’m able to
+            speak any language to ensure the success of any project whether big
+            or small.
+          </p>
+
+          <div class="buttons">
+            <a class="btn" href="blog.html">Visit My Blog</a>
+            <a class="btn" href="resume.html">View My Resume</a>
+          </div>
+
+          <div class="socials">
+            <a class="social" href="https://www.instagram.com/" target="_blank">
+              <img
+                src="assets/icons/instagram.svg"
+                alt="Instagram"
+                width="23"
+                height="23"
+              />
+            </a>
+
+            <a class="social" href="https://x.com/" target="_blank">
+              <img
+                src="assets/icons/twitter-x.svg"
+                alt="Twitter / X"
+                width="23"
+                height="23"
+              />
+            </a>
+
+            <a class="social" href="https://github.com/" target="_blank">
+              <img
+                src="assets/icons/github.svg"
+                alt="GitHub"
+                width="23"
+                height="23"
+              />
+            </a>
+
+            <a
+              class="social"
+              href="https://www.linkedin.com/in/melissa-bray-evans/"
+              target="_blank"
+              width="23"
+              height="23"
+            >
+              <img
+                src="assets/icons/linkedin.svg"
+                alt="LinkedIn"
+                width="23"
+                height="23"
+              />
+            </a>
+
+            <a class="social" href="https://www.tiktok.com/" target="_blank">
+              <img
+                src="assets/icons/tiktok.svg"
+                alt="TikTok"
+                width="23"
+                height="23"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="grid-2-content">
+          <img
+            class="grid-2-img"
+            src="assets/images/5bnxmz.jpg"
+            width="446"
+            height="446"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <footer>
+        <p style="text-align: start">&copy; Melissa Evans 2025</p>
+      </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
